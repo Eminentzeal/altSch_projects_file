@@ -1,0 +1,72 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* utility */
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  /* padding: 0 24px */
+}
+
+a {
+  color: inherit;
+}
+
+nav {
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+nav .logo {
+  width: 8rem;
+  height: 7rem;
+}
+
+nav .logo img {
+  display: block;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none ;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 .4em;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  max-width: 1118px;
+  /* margin: 0 auto; */
+}
+
+.hero .title {
+  /* font-size: calc(1.6rem + 2.77778vw); */
+  font-size: clamp(2.4rem, 5vw, 5.6rem);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.hero .content {
+  max-width: 840px;
+  margin: 0 auto;
+  /* font-size: clamp(1.6rem, 5vw, 3.2rem); */
+    font-size: calc(1rem + 1.66667vw);
+}
